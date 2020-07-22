@@ -21,7 +21,7 @@ Server address in script must be edited to that of server in ESP32 or ESP8266
 4444 is port on server as stated in *platformio.ini*
 
 ##### clrcv:
-Receives answer from server in key accepted; once invoked, remain listening to all answers
+Receives answer from server if key accepted; once invoked, remain listening to all answers
 Contents of clrcv
 
 ~~~
@@ -51,7 +51,9 @@ Here are they:
 ~~~
 
 DEBUG: must be in 1
+
 LOCAL\_PORT and REMOTE\_PORT as stated
+
 MY\_SSID and MY\_PWD must be set according to user WiFi
 
 ### How to test
@@ -84,6 +86,7 @@ chmod +x clrcv
 You must have the server program with the serial monitor running
 
 Open a terminal screen and do the following command
+
 This command will permit seeing the response from server; it will be waiting for each response
 
 ~~~
@@ -111,6 +114,7 @@ clsend bad
 ~~~
 
 There will be no response from server
+
 Also, all of these traffic more detailed will be seen in the serial monitor on server
 
 
