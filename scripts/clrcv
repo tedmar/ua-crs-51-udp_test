@@ -1,0 +1,4 @@
+#!/bin/bash
+# clrcv
+nc -ul 9999
+

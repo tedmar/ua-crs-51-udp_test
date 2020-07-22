@@ -1,0 +1,4 @@
+#!/bin/bash
+# clsend
+echo -n $1 >/dev/udp/192.168.0.59/4444
+
